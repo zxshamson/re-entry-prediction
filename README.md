@@ -45,6 +45,7 @@ optional arguments:
 # Datasets:
 
 format in each line:
+
 [Conv ID] \t [Msg ID] \t [Parent ID] \t [Original sentence] \t [words after preprocessing] \t [User ID] \t [posting time]
 
 (twitter dataset doesn't have time infos, but the conversations are ordered by posting time)
