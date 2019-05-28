@@ -26,7 +26,7 @@ https://nlp.stanford.edu/projects/glove/
 
 ```
 [filename]: "twitter.data" or "reddit.data".
-[modelname]: "AVG", "CNN", "LSTM", "LSTMMEM", "LSTMBiA", "LSTMBiANa", "LSTMMerge", "LSTMAtt".
+[modelname]: "AVG", "CNN", "LSTM", "LSTMMerge", "LSTMAtt", "LSTMMEM", "LSTMBiA".
 
 optional arguments:
   --cuda_dev          choose to use which GPU (default: "0")
