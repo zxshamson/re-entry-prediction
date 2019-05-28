@@ -12,6 +12,14 @@ This is the implementation in PyTorch for my ACL paper:
 
 * Sklearn: 0.20.0
 
+# Before running:
+You need to download Glove pre-training embeddings from: 
+https://nlp.stanford.edu/projects/glove/
+
+"glove.twitter.27B.200d.txt" for twitter.data.
+
+"glove.6B.200d.txt" for reddit.data.
+
 # Usage:
 
 `python train.py [filename] [modelname]`
