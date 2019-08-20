@@ -1,5 +1,5 @@
 # Introduction:
-This is the implementation in PyTorch for my ACL paper:
+This is the implementation in PyTorch for my ACL2019 paper:
 
 "Joint Effects of Context and User History for Predicting Online Conversation Re-entries"
 
@@ -57,3 +57,22 @@ format in each line:
 [Conv ID] \t [Msg ID] \t [Parent ID] \t [Original sentence] \t [words after preprocessing] \t [User ID] \t [posting time]
 
 (twitter dataset doesn't have time infos, but the conversations are ordered by posting time)
+
+# Citation:
+
+```
+@inproceedings{zeng-etal-2019-joint,
+    title = "Joint Effects of Context and User History for Predicting Online Conversation Re-entries",
+    author = "Zeng, Xingshan  and
+      Li, Jing  and
+      Wang, Lu  and
+      Wong, Kam-Fai",
+    booktitle = "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2019",
+    address = "Florence, Italy",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P19-1270",
+    pages = "2809--2818",
+}
+```
